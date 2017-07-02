@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+
+    background-image: url("/assets/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.cnt {
+    height: 100vh;
+}
+
+.belowNavbar {
+    margin-top: 55px;
+}
+
+.intro { 
+ margin: 0 auto;
+ width: 65%;
+}
+
+@font-face {
+    font-family: "MyFont";
+    src: url(/assets/Magnificent.ttf) format("truetype");
+}
+
+p {
+    font-size: 22px;
+    font-family: "MyFont", serif;
+}
+
+.rightAligned {
+    float: right;
+}
+
+.blogButtons {
+    display: inline-block;
+    float: right;
+}
+
+.carousel {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.panel-default > .panel-heading.userName {
+        background-color: transparent;
+}
+
+.panel.panel-default {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form-control.titleInput {
+    background-color: transparent;
+    border: 0px;
+}
+
+.form-control.bodyInput {
+    background-color: transparent;
+    border: 0px;
+}
+
+
+
